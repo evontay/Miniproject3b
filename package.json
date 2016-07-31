@@ -4,7 +4,7 @@
   "description": "An API about myself",
   "main": "app.js",
   "scripts": {
-    "start": "source .env; node app.js",
+    "start": "node app.js",
     "dev": "source .env; nodemon app.js",
     "cover": "istanbul cover _mocha",
     "test": "mocha",
