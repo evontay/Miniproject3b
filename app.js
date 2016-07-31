@@ -12,7 +12,7 @@ app.use(morgan('dev'))
 
 // ROUTES
 // keep all api routes in a seperate file - prefix routes with api/ path
-app.use(routes)
+app.use('/', routes)
 
 // server everything in assets folder as static for images etc
 app.use(express.static('public'))
